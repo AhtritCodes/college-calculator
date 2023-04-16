@@ -3,6 +3,7 @@ const clearBtn = document.querySelector('.clear-btn');
 const equalBtn = document.querySelector('.equal-btn');
 const operand = document.querySelector('.operand');
 const result = document.querySelector('.result');
+const backBtn = document.querySelector('.back-btn');
 
 let output = '';
 let string;
@@ -71,3 +72,8 @@ const evaluate = (opr) => {
         alert('invalid operator / input');
     }
 };
+
+backBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.href = "https://ahtritcodes.github.io/college-calculator/";
+})
