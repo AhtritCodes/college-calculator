@@ -1,8 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
   text-align: center;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 100%;
   background: rgba(210, 210, 210, 0.501);
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  margin: 20px auto;
 }
 
 #goTo-calc {

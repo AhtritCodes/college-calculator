@@ -1,0 +1,25 @@
+.nav-bar {
+  background: rgb(19, 14, 11);
+  background: linear-gradient(
+    194deg,
+    rgba(19, 14, 11, 1) 21%,
+    rgba(66, 40, 40, 1) 61%
+  );
+  /* background-color: rgba(0, 0, 0, 0.574); */
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 10px 15px;
+}
+
+.footer {
+  background: rgb(19, 14, 11);
+  background: linear-gradient(
+    194deg,
+    rgba(19, 14, 11, 0.795) 21%,
+    rgba(66, 40, 40, 0.46) 61%
+  );
+  /* background-color: rgba(0, 0, 0, 0.574); */
+  color: #fff;
+  padding: 8px;
+}
