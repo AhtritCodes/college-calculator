@@ -8,42 +8,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h2>CALCULATOR</h2>
+    <h2>JAVASCRIPT CALCULATOR</h2>
 
-    <div class="calculator">
-      <div class="output">
-        <div class="operation">0</div>
-        <div class="result">0</div>
-      </div>
-
-      <div class="keypad">
-        <div class="row">
-          <button class="calc-keys">AC</button>
-          <button class="calc-keys">+-</button>
-          <button class="calc-keys">÷</button>
-        </div>
-
-        <div class="row">
-          <button class="calc-keys">4</button>
-          <button class="calc-keys">5</button>
-          <button class="calc-keys">6</button>
-          <button class="calc-keys">x</button>
-        </div>
-
-        <div class="row">
-          <button class="calc-keys">1</button>
-          <button class="calc-keys">2</button>
-          <button class="calc-keys">3</button>
-          <button class="calc-keys">-</button>
-        </div>
-
-        <div class="row">
-          <button class="calc-keys">0</button>
-          <button class="calc-keys">%</button>
-          <button class="calc-keys">.</button>
-          <button class="calc-keys">=</button>
-        </div>
-      </div>
-    </div>
+    <button id="goTo-calc">Calculator ➡</button>
   </body>
+
+  <script src="script.js">
+        const btn = document.getElementById('goTo-calc');
+
+        btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.href="https://ahtritcodes.github.io/college-calculator/calculator.html";
+    })
+  </script>
 </html>
