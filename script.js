@@ -75,5 +75,5 @@ const evaluate = (opr) => {
 
 backBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    window.location.href = "https://ahtritcodes.github.io/college-calculator/";
+    window.location.href = "https://ahtritcodes.github.io/college-calculator/index.html";
 })
